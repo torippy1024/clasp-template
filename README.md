@@ -24,7 +24,8 @@ clasp login
 ### ドライブで自分でスクリプトファイルを作成する方法
 
 1. Google ドライブで新規の GAS スクリプトファイルを作成
-2. 作成したファイルのスクリプト ID を`.clasp.json`の`scriptId`に貼り付け
+2. `.clasp.json.sample`を`.clasp.json`に rename
+3. 作成したファイルのスクリプト ID を`.clasp.json`の`scriptId`に貼り付け
 
 ### コマンドからスクリプトファイルを作成する方法
 
