@@ -29,7 +29,7 @@ clasp login
 
 ### コマンドからスクリプトファイルを作成する方法
 
-1. `.clasp.json`を一旦削除する
+1. `.clasp.json.sample`を削除する
 2. `clasp create`を実行する（`Create which script?`は`standalone`を選択）
 3. 作成された`.clasp.json`の`rootDir`を`./dist`にする
 4. ルートの`appsscript.json`を削除（`./dist`にある`appsscript.json`はそのまま）
