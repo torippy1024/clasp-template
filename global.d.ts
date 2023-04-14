@@ -1,5 +1,5 @@
 declare namespace NodeJS {
   interface ProcessEnv {
-    readonly SECRET_VARIABLE: string;
+    readonly LINE_CHANNEL_ACCESS_TOKEN: string;
   }
 }

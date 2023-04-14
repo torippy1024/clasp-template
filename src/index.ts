@@ -1,8 +1,6 @@
-import hello from './hello';
+import doPostLINE from './LINE/doPost';
+import funcForMessageEvent from './LINE/funcForMessageEvent';
 
-global.hello = hello;
-
-global.printPrivateVariable = () => {
-  const secretVariale = process.env.SECRET_VARIABLE;
-  console.log(secretVariale);
-};
+global.doPost = doPostLINE({
+  funcForMessageEvent,
+});
