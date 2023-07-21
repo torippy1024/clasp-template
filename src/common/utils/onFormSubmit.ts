@@ -1,13 +1,4 @@
-type Field = {
-  title: string;
-  content: string;
-};
-
-const category = ['name', 'course', 'team', 'file'] as const;
-
-type Fields = Record<(typeof category)[number], Field | undefined>;
-
-type FormItemResponses = {
+export type FormItemResponses = {
   items: {
     title: string;
     content: string;
@@ -28,3 +19,5 @@ const onFormSubmit = (
   }));
   func({items, responses});
 };
+
+export default onFormSubmit;
